@@ -85,18 +85,18 @@ class DoctorsPage extends StatelessWidget {
                                 : const Color(0xFFF7F7F9),
                             borderRadius: BorderRadius.circular(16),
                           ),
-                          child: Column(
+                          child: const Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              SvgPicture.asset(
-                                category.iconPath,
-                                width: 32,
-                                height: 32,
-                                color: index == 0
-                                    ? Colors.white
-                                    : const Color(0xFF2D3142),
-                              ),
-                              const SizedBox(height: 8),
+                              // SvgPicture.asset(
+                              //   category.iconPath,
+                              //   width: 32,
+                              //   height: 32,
+                              //   color: index == 0
+                              //       ? Colors.white
+                              //       : const Color(0xFF2D3142),
+                              // ),
+                              SizedBox(height: 8),
                               // Text(
                               //   category.name,
                               //   style: TextStyle(
